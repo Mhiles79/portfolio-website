@@ -1,200 +1,264 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maya Wende | Fachinformatikerin für Anwendungsentwicklung</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f6f9;
-            color: #333;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f6f9;
+        color: #333;
+      }
 
-        header {
-            background: #0078d4;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
+      header {
+        background: #0078d4;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+      }
 
-        nav {
-            background: #005ea6;
-            text-align: center;
-            padding: 10px;
-        }
+      nav {
+        background: #005ea6;
+        text-align: center;
+        padding: 10px;
+      }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+      }
 
-        section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+      section {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+      }
 
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,.1);
-        }
-        h3  {
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      h3 {
         color: #0078d4;
         margin-top: 25px;
-       }
-       .github-btn {
-           display: inline-block;
-           background: #24292e;
-           color: white;
-           text-decoration: none;
-           padding: 10px 18px;
-           border-radius: 6px;
-           margin-top: 10px;
-       }
+      }
+      .github-btn {
+        display: inline-block;
+        background: #24292e;
+        color: white;
+        text-decoration: none;
+        padding: 10px 18px;
+        border-radius: 6px;
+        margin-top: 10px;
+      }
 
-       .github-btn:hover {
-           background: #0366d6;
-    }
+      .github-btn:hover {
+        background: #0366d6;
+      }
+      .project-card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        border-left: 5px solid #0078d4;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
 
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+      .project-card:hover {
+        transform: translateY(-5px);
+      }
+      .project-card h3 {
+        color: #0078d4;
+        margin-top: 0;
+      }
 
-        .btn {
-            display: inline-block;
-            background: #0078d4;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
+      .project-card strong {
+        color: #555;
+      }
+
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        background: #0078d4;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <h1>Maya Wende</h1>
+      <p>Umschulung zur Fachinformatikerin für Anwendungsentwicklung</p>
+      <a href="#kontakt" class="btn">Kontakt</a>
+    </header>
 
-<header>
-    <h1>Maya Wende</h1>
-    <p>Umschulung zur Fachinformatikerin für Anwendungsentwicklung</p>
-    <a href="#kontakt" class="btn">Kontakt</a>
-</header>
+    <nav>
+      <a href="#uebermich">Über mich</a>
+      <a href="#skills">Skills</a>
+      <a href="#projekte">Projekte</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
 
-<nav>
-    <a href="#uebermich">Über mich</a>
-    <a href="#skills">Skills</a>
-    <a href="#projekte">Projekte</a>
-    <a href="#kontakt">Kontakt</a>
-</nav>
-
-<section id="uebermich">
-    <div class="card">
+    <section id="uebermich">
+      <div class="card">
         <h2>Über mich</h2>
         <p>
-            Derzeit absolviere ich eine Umschulung zur Fachinformatikerin
-            für Anwendungsentwicklung. Mein Schwerpunkt liegt auf
-            Softwareentwicklung, Datenbanken, Netzwerktechnik und
-            IT-Sicherheit.
+          Derzeit absolviere ich eine Umschulung zur Fachinformatikerin für
+          Anwendungsentwicklung. Mein Schwerpunkt liegt auf Softwareentwicklung,
+          Datenbanken, Netzwerktechnik und IT-Sicherheit.
         </p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="skills">
-    <div class="card">
+    <section id="skills">
+      <div class="card">
         <h2>Technische Kenntnisse</h2>
         <ul>
-            <li>Python</li>
-            <li>C#</li>
-            <li>SQL / SQL Server</li>
-            <li>PowerShell</li>
-            <li>Git & GitHub</li>
-            <li>HTML, CSS, JavaScript</li>
+          <li>Python</li>
+          <li>C#</li>
+          <li>SQL / SQL Server</li>
+          <li>PowerShell</li>
+          <li>Git & GitHub</li>
+          <li>HTML, CSS, JavaScript</li>
         </ul>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="projekte">
-    <div class="card">
+    <section id="projekte">
+      <div class="card">
         <h2>Projekte</h2>
-    
-        <h3>SQL-Datenbankprojekt</h3>
-        <p>
+        <div class="project-card">
+          <h3>SQL-Datenbankprojekt</h3>
+          <p>
             Erstellung einer relationalen Datenbank mit Microsoft SQL Server.
             Entwicklung von Tabellen, Beziehungen und SQL-Abfragen.
-        </p>
-        <a href="#" class="github-btn" target="_blank">
-            GitHub ansehen
-        </a>
+          </p>
+          <p>
+            <strong>Technologien:</strong>
+            SQL Server, ER-Modellierung, Datenbanken
+          </p>
+          <p>
+            <strong>Status:</strong> 
+            Abgeschlossen
+          </p>
+          <a href="#" class="github-btn" target="_blank"> Repository folgt 
 
+          </a>
+        </div>
+        <div class="project-card">
         <h3>Python-Web-Scraper</h3>
         <p>
-            Entwicklung eines Python-Skripts zur automatisierten Auswertung
-            von Webdaten mit BeautifulSoup.
+          Entwicklung eines Python-Skripts zur automatisierten Auswertung von
+          Webdaten mit BeautifulSoup.
         </p>
-        <a href="#" class="github-btn" target="_blank">
-            GitHub ansehen
+        <p>
+          <strong>Technologien:</strong>
+          Python, BeautifulSoup, HTML
+        </p>
+        <p>
+            <strong>Status:</strong> 
+            Abgeschlossen
+        </p>
+        <a href="#" class="github-btn" target="_blank">  
+            Repository folgt
         </a>
+      </div>
+      <div class="project-card">
 
         <h3>PowerShell-Automatisierung</h3>
         <p>
-            Erstellung von Skripten zur Automatisierung von
-            Verwaltungs- und Dateiverarbeitungsaufgaben.
+          Erstellung von Skripten zur Automatisierung von Verwaltungs- und
+          Dateiverarbeitungsaufgaben.
         </p>
-        <a href="#" class="github-btn" target="_blank">
-            GitHub ansehen
+        <p>
+          <strong>Technologien:</strong>
+          PowerShell, Windows Administration, Automatisierung
+        </p>
+        <p>
+            <strong>Status:</strong> 
+            Abgeschlossen
+        </p>
+        <a href="#" class="github-btn" target="_blank"> Repository folgt 
+
         </a>
+        </div>
+        <div class="project-card">
 
         <h3>Netzwerk- und Security-Labor</h3>
         <p>
-            Planung und Konfiguration von IPv4- und IPv6-Netzen,
-            Subnetting, VPN und IT-Sicherheitsgrundlagen.
+          Planung und Konfiguration von IPv4- und IPv6-Netzen, Subnetting, VPN
+          und IT-Sicherheitsgrundlagen.
         </p>
-        <a href="#" class="github-btn" target="_blank">
-            GitHub ansehen
-        </a>
+        <p>
+          <strong>Technologien:</strong>
+          IPv4, IPv6, VPN, Subnetting, IT-Sicherheit
+          <p>
+            <strong>Status:</strong> 
+            Abgeschlossen
+        </p>
+        <a href="#" class="github-btn" target="_blank"> Repository folgt 
 
+        </a>
+        </div>
+        <div class="project-card">
         <h3>Git & GitHub</h3>
         <p>
-            Versionsverwaltung von Projekten mit Git,
-            Branching und Merge-Konflikt-Behandlung.
+          Versionsverwaltung von Projekten mit Git, Branching und
+          Merge-Konflikt-Behandlung.
         </p>
-        <a href="#" class="github-btn" target="_blank">
-            GitHub ansehen
-        </a>
-    </div>
-</section>    
-   
+        <p>
+          <strong>Technologien:</strong>
+          Git, GitHub, Branching, Merge-Konflikte-Behandlung
+        </p>
+        <p>
+            <strong>Technologien:</strong> 
+            Git, GitHub, Braches, Merge, Pull Requests
+        </p>
+        <p>
+            <strong>Status:</strong> 
+            Laufend
+        </p>
+        <a 
+        href="https://github.com/mhiles79/logviewer" 
+        class="github-btn"
+        target="_blank"> 
+        Logviewer auf 
+    </a>
+      </div>
+    </section>
 
-<section id="kontakt">
-    <div class="card">
+    <section id="kontakt">
+      <div class="card">
         <h2>Kontakt</h2>
         <p>
-            E-Mail:  
-            <a href="mailto:wendemaya5@gmail.com">
-                wendemaya5@gmail.com
-            </a>
+          E-Mail:
+          <a href="mailto:wendemaya5@gmail.com"> wendemaya5@gmail.com </a>
         </p>
-        <p>LinkedIn:  Profil folgt in Kürze</p>
-       <p>
-            GitHub:
-            <a href="https://github.com/mhiles79/logviewer" 
-        target="_blank">
-                mhiles79/logviewer
-            </a>
+        <p>LinkedIn: Profil folgt in Kürze</p>
+        <p>
+          GitHub:
+          <a href="https://github.com/mhiles79/logviewer" target="_blank">
+            mhiles79/logviewer
+          </a>
         </p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    © 2026 Maya Wende
-</footer>
-
-</body>
+    <footer>© 2026 Maya Wende</footer>
+  </body>
 </html>
